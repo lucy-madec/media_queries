@@ -1,0 +1,31 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    background-color: #88c1d0;
+    width: 200px;
+    height: 100px;
+    margin: 10px; 
+}
+
+@media screen and (max-width: 767px) {
+    main {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1599px) {
+    main {
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media screen and (min-width: 1600px) {
+    main {
+        flex-direction: row;
+    }
+    
+}
