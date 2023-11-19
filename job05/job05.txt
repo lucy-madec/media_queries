@@ -1,0 +1,1 @@
+Le media queries du site Ville de Marseille a été fait dans l'exercice concerné.
